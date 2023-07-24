@@ -1,2 +1,2 @@
-# P-gina-de-login
-Feita em HTML, CSS, Javascript
+# Pagina-de-login
+Feita em HTML e CSS
