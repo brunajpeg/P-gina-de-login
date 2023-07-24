@@ -1,3 +1,5 @@
+@import url("reset.css");
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
@@ -43,6 +45,7 @@ body {
 /* ---------- */
 
 /* Login Card Standard */
+.login-card-logo,
 .login-card-header,
 .login-card-footer {
     text-align: center;
@@ -70,7 +73,7 @@ body {
     margin-bottom: .5rem;
 }
 
-.login-card-header h1 + div {
+.login-card-header h1+div {
     font-size: calc(1rem * .8);
     opacity: .8;
 }
@@ -124,6 +127,7 @@ body {
     background: rgba(255, 255, 255, .3);
     padding: 1rem 1.5rem;
     padding-left: calc(1rem * 3.5);
+    border-radius: 100px;
     width: 100%;
     transition: background .5s;
 }
@@ -192,6 +196,7 @@ body {
     background-color: white;
     transform: scale(1.1);
 }
+
 
 @media (max-width: 768px) {
     body {
